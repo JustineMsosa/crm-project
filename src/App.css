@@ -24,15 +24,27 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.default-layout {
+  display: gird;
+  grid-template-rows: 80px auto 3rem;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  min-height: 88vh;
+}
+
+footer {
+  grid-area: footer;
+  background: black;
+  padding: 1rem;
+  color: white;
 }
