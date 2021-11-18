@@ -17,7 +17,7 @@ export const Header = () =>{
             <NavbarToggle arial-controls="basic-navebar-nav" />
             <NavbarCollapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link href="/dashboard">Dashboard</Nav.Link>
+                    <Nav.Link href="/dashboard">Dashboard</Nav.Link> 
                     <Nav.Link href="dashboard">Tickets</Nav.Link>
                     <Nav.Link href="/dashboard">Logout</Nav.Link>
                 </Nav>

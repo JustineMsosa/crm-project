@@ -12,6 +12,7 @@ export const TicketTable = () => {
         <tr>
           <th>#</th>
           <th>Subjects</th>
+          <th>Location</th>
           <th>Status</th>
           <th>Opened Date</th>
         </tr>
@@ -20,41 +21,53 @@ export const TicketTable = () => {
             <tr>
               <td>1</td>
               <td>
-                  Malaria symptoms
+                  blackout
               </td>
-              <td>escaleted to doctor</td>
+              <td>
+                  Zomba
+              </td>
+              <td>escaleted to eskom</td>
               <td>11/15/2021</td>
             </tr>
 
             <tr>
               <td>2</td>
               <td>
-                  covid symptoms
+                  Transformer fault
               </td>
-              <td>escaleted to doctor</td>
+              <td>
+                  Zomba
+              </td>
+              <td>escaleted to eskom</td>
               <td>11/15/2021</td>
             </tr>
 
             <tr>
               <td>3</td>
               <td>
-                  Malaria symptoms
+                  blackout
               </td>
-              <td>escaleted to doctor</td>
+              <td>
+                  Blantyre
+              </td>
+              <td>escaleted to eskom</td>
               <td>11/15/2021</td>
             </tr>
 
             <tr>
               <td>4</td>
               <td>
-                  pregnant symptoms
+                  blackout
+              </td>
+              <td>
+                  Lilongwe
               </td>
               <td>pending...</td>
               <td>11/15/2021</td>
             </tr>
         
           <tr>
-            <td colSpan="4" className="text-center">
+            <td colSpan="5" className="text-center">
               No ticket show{" "}
             </td>
           </tr>

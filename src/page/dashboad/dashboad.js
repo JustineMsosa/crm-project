@@ -25,15 +25,15 @@ export const Dashboard = ()=>{
       </Row>
       <Row>
         <Col className="text-center  mb-2">
-          <div>Total tickets: 4</div>
-          <div>Pending tickets: 1 </div>
+          <div>Total Tickets: 4</div>
+          <div>Pending Tickets: 1 </div>
         </Col>
       </Row>
       <Row>
         </Row>
       
         <Row>
-        <Col className="mt-3 text-left"><h5 >Recently Added tickets</h5></Col>
+        <Col className="mt-3 text-left"><h5 >Recently Added Tickets</h5></Col>
       </Row>
       <hr />
 
