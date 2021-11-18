@@ -15,8 +15,8 @@ function App() {
       {/* <Button> test button</Button> */}
     
       {/* <Entry /> */}
-      {/* <Default ><Dashboard /></Default> */}
-      <Default><AddTicket /></Default>
+      <Default ><Dashboard /></Default>
+      {/* <Default><AddTicket /></Default> */}
     </div>
   );
 }
